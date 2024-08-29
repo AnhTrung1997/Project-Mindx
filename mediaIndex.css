@@ -41,6 +41,12 @@
             }
         }
 
-
+        .your-class {
+            img {
+                margin: 10px auto;
+                height: 120px;
+                width: 600px
+            }
+        }
     }
 }
