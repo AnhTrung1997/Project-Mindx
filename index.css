@@ -209,6 +209,8 @@ body {
                         }
 
                         p {
+                            margin-top: 7px;
+
                             &:hover {
                                 cursor: pointer;
                             }
