@@ -4,7 +4,7 @@ const ulbodyTop = document.querySelector('ul.bodyTop')
 const imgLogo = document.querySelector('img.logoSearch')
 let check = false
 liMenu.addEventListener('click', () => {
-    if (window.innerWidth > 0 && window.innerWidth <= 768) {
+    if (window.innerWidth <= 768) {
         if (check == false) {
             liJs.forEach(element => {
                 element.style.display = "flex"
@@ -26,7 +26,7 @@ liMenu.addEventListener('click', () => {
     }
 })
 imgLogo.addEventListener('click', () => {
-    if (window.innerWidth > 0 && window.innerWidth <= 768) {
+    if (window.innerWidth <= 768) {
         var boxSearch = prompt('Nhập tên game...')
     }
 })
