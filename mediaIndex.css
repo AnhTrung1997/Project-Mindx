@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    .header {
+        .searchBox {
+            input {
+                display: none;
+            }
+        }
+
+        .headerRight {
+            a.HD {
+                display: none;
+            }
+        }
+    }
+
+
+    .body {
+        .bodyMid {
+            .bangXH {
+                .bxhList {
+                    .list {
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        align-items: unset
+                    }
+
+                    .listleft {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+
+        ul {
+            li.js {
+                display: none;
+            }
+
+            li.Menu {
+                display: flex;
+            }
+        }
+
+
+    }
+}

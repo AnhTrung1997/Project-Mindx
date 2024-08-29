@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0 15px;
+    background-color: rgb(229, 255, 255);
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 20px auto;
+
+    img {
+        height: 60px;
+    }
+
+    .searchBox {
+        height: 40px;
+        max-width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+
+        input {
+            height: 40px;
+            width: 255px;
+            border: 1px solid blue;
+            border-radius: 2px;
+        }
+
+        img {
+            height: 30px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .headerRight {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+            border: 1px solid none;
+            border-radius: 2px;
+            padding: 10px;
+            background-color: rgb(58, 165, 252);
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                color: black;
+            }
+        }
+    }
+}
+
+.body {
+    align-items: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0;
+        background-color: rgb(7, 218, 0);
+        border: 1px solid;
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            &:hover {
+                cursor: pointer;
+                color: red;
+            }
+
+
+        }
+
+        li a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            text-decoration: none;
+            color: black;
+
+            o &:hover {
+                cursor: pointer;
+                color: red;
+            }
+
+            &:active {
+                color: black;
+            }
+
+        }
+
+        li.Menu a {
+            font-weight: bold;
+            color: rgb(1, 81, 255);
+        }
+    }
+
+    .your-class {
+        img {
+            margin: 10px auto;
+            height: 200px;
+            width: 1000px
+        }
+    }
+
+    .bodyMid {
+        display: flex;
+
+        justify-content: space-between;
+
+        .gameTotal {
+
+            max-width: 70%;
+
+            .gameMini {
+                margin-top: 20px;
+
+                h3 {
+                    background: red;
+                    padding: 5px;
+                    border-radius: 5px 5px 0 0;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                }
+
+                .gameDetail {
+                    padding: 10px;
+                    border: 2px solid red;
+
+                    border-radius: 0 0 5px 5px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 50px;
+
+
+                    a.game {
+                        text-align: center;
+
+                        text-decoration: none;
+
+                        img {
+                            height: 140px;
+                            width: 140px;
+                            border-radius: 30px;
+                            box-shadow: 0 1px 5px rgba(0, 0, 0, .45);
+                            overflow: hidden;
+                            -webkit-box-shadow: 5px 5px 5px #111;
+                            box-shadow: 5px 5px 5px #111;
+                            -webkit-transition: all .5s ease;
+                            -moz-transition: all .5s ease;
+                            -o-transition: all .5s ease;
+                            -ms-transition: all .5s ease;
+                            transition: all .5s ease;
+
+                            &:hover {
+                                -webkit-transform: rotate(360deg);
+                                -moz-transform: rotate(360deg);
+                                -o-transform: rotate(360deg);
+                                -ms-transform: rotate(360deg);
+                                transform: rotate(360deg);
+
+                            }
+
+                            &:hover {
+                                cursor: pointer;
+                            }
+
+
+                        }
+
+                        p {
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+
+                        span {
+                            color: gray;
+                            font-size: small;
+                        }
+                    }
+
+                    .game {
+                        text-align: center;
+
+                        img {
+                            height: 140px;
+                            width: 140px;
+                            border-radius: 30px;
+                            box-shadow: 0 1px 5px rgba(0, 0, 0, .45);
+
+                            &:hover {
+                                cursor: pointer;
+                            }
+
+
+                        }
+
+                        p {
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+
+                        span {
+                            color: gray;
+                            font-size: small;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bangXH {
+            width: 25%;
+
+            margin-top: 20px;
+
+            .bxhList {
+                padding: 10px;
+                border: 2px solid red;
+
+
+                .list {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 5px;
+                    align-items: center;
+                    border-bottom: 1px solid red;
+                    padding: 5px;
+                    flex-wrap: wrap;
+
+                    .listleft {
+                        display: flex;
+                        gap: 10px;
+                    }
+
+                    img {
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 10px;
+                        box-shadow: 0 1px 5px rgba(0, 0, 0, .45);
+                    }
+
+                    .bxhDetail {
+                        display: flex;
+                        flex-direction: column;
+
+                        span.name {
+                            color: red;
+                        }
+
+                        span.score {
+                            color: blue;
+                        }
+
+                        span.nameGame {
+                            color: green;
+                        }
+                    }
+                }
+            }
+
+            h3 {
+                background: red;
+                padding: 5px;
+                border-radius: 5px 5px 0 0;
+            }
+        }
+    }
+}
+
+.footer {
+    max-width: 1440px;
+    margin: 20px auto;
+    border: 2px solid rgb(7, 218, 0);
+    border-radius: 5px;
+
+    h3 {
+        background-color: rgb(7, 218, 0);
+        text-align: center;
+        padding: 10px;
+    }
+
+    .ftContent {
+        display: flex;
+        justify-content: space-around;
+
+        .content {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            h4 {
+                padding: 5px 0;
+            }
+
+            p {
+                &:hover {
+                    cursor: pointer;
+                    color: red;
+                }
+            }
+        }
+    }
+}
