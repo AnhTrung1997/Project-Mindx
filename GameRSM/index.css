@@ -79,3 +79,20 @@ h1 {
     color: rgb(58, 165, 252);
     padding: 20px;
 }
+
+.Hdan {
+    max-width: 600px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(7, 218, 0);
+    border-radius: 5px;
+
+    h3 {
+        background-color: rgb(7, 218, 0);
+        text-align: center;
+        padding: 10px;
+    }
+
+    ul {
+        margin: 10px 0;
+    }
+}
