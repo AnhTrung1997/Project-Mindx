@@ -59,7 +59,7 @@ body {
             gap: 5px;
             border: 1px solid blue;
             border-radius: 2px;
-            padding: 5px;
+            padding: 10px;
             background-color: rgb(58, 165, 252);
             text-decoration: none;
             color: black;
@@ -73,4 +73,9 @@ body {
             }
         }
     }
+}
+
+h1 {
+    color: rgb(58, 165, 252);
+    padding: 20px;
 }
